@@ -1,4 +1,3 @@
-import org.junit.Before;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.params.ParameterizedTest;
@@ -67,21 +66,6 @@ public class TestOutput
             default:
                 fail("Invalid match type for " + testCaseName);
         }
-//            } catch (ClassNotFoundException e)
-//            {
-//                throw new RuntimeException(e);
-//            } catch (InvocationTargetException e)
-//            {
-//                throw new RuntimeException(e);
-//            } catch (IllegalAccessException e)
-//            {
-//                throw new RuntimeException(e);
-//            } catch (NoSuchMethodException e)
-//            {
-//                throw new RuntimeException(e);
-//            } finally {
-//                System.setIn(originalIn);
-//            }
     }
 }
 
