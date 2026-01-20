@@ -1,4 +1,21 @@
 {
+  //starts container in mode to compile/run code vs. lightweight mode
+  "java.server.launchMode": "Standard",
+	//inlay hints are like param names before arguments
+  "editor.inlayHints.enabled": "off",
+  //settings to format
+  "editor.formatOnType": true,
+  //italicize comments
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+        {
+          "scope": "comment",
+          "settings": {
+            "fontStyle": "italic"
+          }
+        }
+      ]
+  }
   "git.postCommitCommand": "push",                        // Changes Commit button in source control tab to Commit & Push
   "github.copilot.inlineSuggest.enable": false,           // Disables the automatic inline code completion and suggestions.
   "github.copilot.editor.enableAutoCompletions": false,
