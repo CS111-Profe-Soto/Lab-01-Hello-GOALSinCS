@@ -1,5 +1,6 @@
 /**
  * The first lab for CS 111 is to demonstrate editing, running, and testing a Java program.
+ * @author Your Name Here
  */
 public class Main
 {
