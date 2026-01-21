@@ -14,11 +14,7 @@ named `main` and a statement `System.out.println("Hello world.);`.
 
 Running or executing your code will allow you to see how it currently works,
 
-There are a number of ways to run a program in VS Code.
-- You can use the Run and Debug tool in the Activity Bar.
-- You can choose Run Java from the context menu in the program.
-- You can select the play button on the top right of the editor window.
-- You can choose Run Without Debugging from the Run menu.
+There are a number of ways to run a program in VS Code. I suggest that you run the program by selecting the play button on the top right of the editor window.
    
 The output will appear in the terminal window.
 
